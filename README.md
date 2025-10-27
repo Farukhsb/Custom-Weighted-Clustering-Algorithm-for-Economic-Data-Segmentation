@@ -43,7 +43,7 @@ Update Step:
     d = Σ wᵢ^β (aᵢ − bᵢ)²
 - Feature weight update
    wⱼ = 1 / Σ [(Δⱼ / Δₜ)^(1 / (β − 1))]
-where Δⱼ is the dispersion of feature j across all clusters,
+- where Δⱼ is the dispersion of feature j across all clusters,
 and β controls how strongly weighting adapts to dispersion.
 
 ## Research and Policy Relevance
