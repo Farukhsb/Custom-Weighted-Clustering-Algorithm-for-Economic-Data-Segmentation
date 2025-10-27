@@ -77,3 +77,41 @@ By adapting feature weighting dynamically, the algorithm highlights which econom
 | 2            | 1.1      | [[1.0, 89.0], [2.0, 89.0]]                           |
 | 3            | 1.5      | [[1.0, 59.0], [2.0, 65.0], [3.0, 54.0]]              |
 | 4            | 2.0      | [[1.0, 47.0], [2.0, 42.0], [3.0, 46.0], [4.0, 43.0]] |
+
+
+## Usage
+
+```python
+from weighted_clustering import DataMatrix, WeightedClustering
+
+# Load your dataset (example: Data.csv)
+data = DataMatrix("Data.csv")
+
+# Initialize clustering model
+clusterer = WeightedClustering(n_clusters=3, beta=1.5)
+
+# Fit the model
+clusterer.fit(data)
+
+# Get cluster frequencies
+frequencies = clusterer.get_cluster_frequencies()
+print(f"Cluster distribution: {frequencies}")
+
+## Dataset and Implementation
+
+- **Dataset used:`Data.csv` 
+- **Core files:**  
+  - `weighted_clustering.py` – main implementation of the algorithm  
+  - `Data.csv` – example dataset for demonstration  
+  - `README.md` – this documentation
+## Research and Policy Relevance
+
+This algorithm is designed to support evidence-based decision-making in contexts such as:
+
+- **Regional economic segmentation** – clustering areas with similar structural features for targeted interventions.  
+- **Industrial strategy** – grouping firms by productivity, trade exposure or innovation potential.  
+- **Labour market analysis** – clustering occupations or localities by skill and automation-risk profiles.  
+- **Public resource allocation** – identifying homogeneous groups for efficient policy design.
+
+By dynamically weighing features, the algorithm highlights *which factors matter most*, offering interpretable insights for policymakers and analysts.
+
