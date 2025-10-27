@@ -97,6 +97,8 @@ clusterer.fit(data)
 frequencies = clusterer.get_cluster_frequencies()
 print(f"Cluster distribution: {frequencies}")
 
+```
+
 ## Dataset and Implementation
 
 - **Dataset used:`Data.csv` 
