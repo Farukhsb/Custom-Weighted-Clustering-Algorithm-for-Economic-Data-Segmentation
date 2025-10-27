@@ -39,9 +39,9 @@ Update Step:
 
 ## Mathematical Core
 
-   Weighted Euclidean distance
+- Weighted Euclidean distance
     d = Σ wᵢ^β (aᵢ − bᵢ)²
-   Feature weight update
+- Feature weight update
    wⱼ = 1 / Σ [(Δⱼ / Δₜ)^(1 / (β − 1))]
 where Δⱼ is the dispersion of feature j across all clusters,
 and β controls how strongly weighting adapts to dispersion.
