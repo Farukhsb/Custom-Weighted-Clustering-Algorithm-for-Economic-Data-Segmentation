@@ -70,7 +70,7 @@ By adapting feature weighting dynamically, the algorithm highlights which econom
 
 - Configurable parameters for cluster count and β value.
 
-## Result
+## Result Snippet
 
   | Clusters (K) | β (Beta) | Cluster Distribution                                 |
 | ------------ | -------- | ---------------------------------------------------- |
