@@ -79,6 +79,7 @@ By adapting feature weighting dynamically, the algorithm highlights which econom
 | 4            | 2.0      | [[1.0, 47.0], [2.0, 42.0], [3.0, 46.0], [4.0, 43.0]] |
 
 
+
 ## Usage
 
 ```python
