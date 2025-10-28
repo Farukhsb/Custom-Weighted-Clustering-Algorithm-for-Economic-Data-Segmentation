@@ -18,7 +18,7 @@ A sophisticated Python implementation of an adaptive weighted clustering algorit
 
 ## Output:
 Cluster distribution: [[1.0, 59.0], [2.0, 65.0], [3.0, 54.0]]
-This output corresponds to the S matrix required in the original algorithm specification 
+This output corresponds to the S matrix required in the original algorithm specification; 
 a distribution of entities (rows) into clusters.
 
 ## Algorithm Overview
