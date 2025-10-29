@@ -14,7 +14,7 @@ A sophisticated Python implementation of an adaptive weighted clustering algorit
 - Regional economic profiling and development initiatives
 - Industrial strategy through firm segmentation
 - Labor market analysis for skills and automation risk assessment
-- Targeted policy intervention design
+- Targeted policy intervention design 
 
 ## Output:
 Cluster distribution: [[1.0, 59.0], [2.0, 65.0], [3.0, 54.0]]
